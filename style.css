@@ -16,7 +16,7 @@ body {
     border-radius: 10px;
 }
 
-.display {
+#display {
     text-align: right;
     height: 70px;
     line-height: 70px;
