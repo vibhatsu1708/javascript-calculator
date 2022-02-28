@@ -8,9 +8,11 @@ body {
 }
 .container {
     max-width: 400px;
+    height: fit-content;
     margin: 20vh auto 0 auto;
+    padding: 5px 5px;
     box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.156);
-    background-color: #FEEFDD;
+    background-color: #143642;
     border-radius: 10px;
 }
 
@@ -21,15 +23,15 @@ body {
     padding: 10px 30px;
     font-size: 25px;
     background-color: #1EA896;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
     color: white;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 4px;
 }
 
 .button {
@@ -50,4 +52,25 @@ body {
     border-bottom: 5px solid #2956e9;
 }
 
+#clear {
+    border-bottom: 5px solid #eb7a68;
+}
+#clear:hover {
+    border-bottom: 5px solid #ec3417;
+}
+#equal {
+    border-bottom: 5px solid #ffd387;
+}
+#equal:hover {
+    border-bottom: 5px solid #ffa60d;
+}
+#operators {
+    background-color: #2B59C3;
+    color: white;
+    border-bottom: 5px solid white;
+}
+#operators:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.457);
+}
 
